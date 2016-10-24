@@ -1,0 +1,5 @@
+TODO List: 
+	- Create filepath files to enable quick switching of file paths
+		- Get-Content cmdlet
+	- Merge JavaLauncher and ScriptLauncher?
+		- Must decide
