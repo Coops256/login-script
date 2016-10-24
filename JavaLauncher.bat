@@ -8,3 +8,6 @@ IF "%again%"=="yes" (
 	cd C:\Users\CooperR\OneDrive\Documents\Launchers
 	call "JavaLauncher.bat"
 )
+ELSE(
+	exit
+)
