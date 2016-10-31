@@ -65,7 +65,15 @@ function back{
 }
 
 function mover{
-	Write-Host "69"
+	$sarnowski = "K:\Technology_Education\Student_Data\SARNOWSKI\Share\APCS\"
+	$cooper = "C:\Users\crockwell2\Desktop\"
+	cd $sarnowski
+	ls
+	$filename = Read-Host -prompt 'Which files to copy?'
+	Write-Host "Copying..."
+	Copy-Item .\"$filename" "$cooper" -recurse -container
+	Write-Host "...Done"
+	back
 }
 
 function TaskManager{
